@@ -1,39 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-body{
+body {
     background-color: #E5E9F8;
     margin: 0;
-    overflow-x: hidden;
-
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-.Lista_icones{
+.Lista_icones {
     list-style-type: none;
     display: flex;
     margin-right: 30px;
     gap: 10px;
 }
 
-header{
-    margin-top: 25px ;
+header {
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     gap: 470px;
     position: relative;
 }
 
-.lupa, .Lista_icones{
+.lupa, .Lista_icones {
     margin-top: 30px;
 }
 
-.menu{
+.menu {
     position: absolute;
-    display: block;
     top: 90%;
     list-style-type: none;
     display: flex;
@@ -41,39 +38,36 @@ header{
     margin-right: 80px;
 }
 
-.menu li{
+.menu li {
     font-family: "IBM Plex Serif", serif;
     border-bottom: 0.5px solid black;
     padding: 2.5px;
 }
 
-.Elegância{
+.Elegância {
     margin: 0;
     padding: 0;
     margin-top: 60px;
 }
 
-.ele_img{
-    max-width: 100%; 
-    height: auto; 
-    display: block;
+.ele_img {
+    width: 100vw;
 }
 
-.itens{
+.itens {
     margin: 0;
     margin-top: 40px;
     display: flex;
     gap: 5px;
 }
 
-footer{
+footer {
     justify-content: center; 
     display: flex;
     margin-top: 20px;
     align-items: center; 
     margin-bottom: 10px;
 }
-
 
 .camisa_linho, .birken, .bone {
     transition: transform 0.3s ease, z-index 0.3s ease; 
@@ -84,16 +78,15 @@ footer{
     z-index: 10; 
 }
 
-.birken:hover{
+.birken:hover {
     transform: scale(0.9); 
     z-index: 10;
 }
 
-.camisa_linho:hover{
+.camisa_linho:hover {
     transform: scale(0.9); 
     z-index: 10;
 }
-
 
 
 
