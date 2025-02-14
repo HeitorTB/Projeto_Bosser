@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #E5E9F8;
-    margin: 0;
 }
 
 a {
@@ -10,63 +14,49 @@ a {
     color: black;
 }
 
-.Lista_icones {
-    list-style-type: none;
-    display: flex;
-    margin-right: 30px;
-    gap: 10px;
-}
-
-header {
-    margin-top: 25px;
+.imagens{
     display: flex;
     justify-content: center;
-    gap: 470px;
-    position: relative;
+    gap: 800px;
 }
 
-.lupa, .Lista_icones {
+ol{
+    list-style-type: none;
+}
+
+.Lista_icones{
+    display: flex;
+}
+
+header{
     margin-top: 30px;
 }
 
-.menu {
-    position: absolute;
-    top: 90%;
-    list-style-type: none;
+.Lista_icones, .lupa{
+    margin-top: 10px;
+}
+
+nav ol{
     display: flex;
-    gap: 100px;
-    margin-right: 80px;
+    justify-content: center;
+    gap: 80px;
 }
 
-.menu li {
-    font-family: "IBM Plex Serif", serif;
-    border-bottom: 0.5px solid black;
-    padding: 2.5px;
+nav{
+    margin-top: 20px;
 }
 
-.Elegância {
-    margin: 0;
-    padding: 0;
-    margin-top: 60px;
+.Elegancia img{
+    width: 100%;
+    margin-top: 30px;
 }
 
-.ele_img {
-    width: 100vw;
-}
-
-.itens {
-    margin: 0;
-    margin-top: 40px;
+.itens{
     display: flex;
     gap: 5px;
-}
-
-footer {
-    justify-content: center; 
-    display: flex;
-    margin-top: 20px;
-    align-items: center; 
-    margin-bottom: 10px;
+    margin: 0 auto;
+    max-width: 85em;
+    margin-top: 5px;
 }
 
 .camisa_linho, .birken, .bone {
@@ -88,9 +78,15 @@ footer {
     z-index: 10;
 }
 
+footer {
+    justify-content: center; 
+    display: flex;
+    margin-top: 20px;
+    align-items: center; 
+    margin-bottom: 10px;
+}
 
-
-
-
-
+nav ol li{
+    border-bottom: 1px solid black;
+}
 
