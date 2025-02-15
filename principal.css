@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: "Kaisei Decol", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
@@ -26,6 +28,7 @@ ol{
 
 .Lista_icones{
     display: flex;
+    gap: 5px;
 }
 
 header{
@@ -36,13 +39,13 @@ header{
     margin-top: 10px;
 }
 
-nav ol{
+.nav_menu ol{
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 100px;
 }
 
-nav{
+.nav_menu{
     margin-top: 20px;
 }
 
@@ -86,7 +89,37 @@ footer {
     margin-bottom: 10px;
 }
 
-nav ol li{
+.nav_menu ol li{
     border-bottom: 1px solid black;
 }
 
+.titulo{
+    margin-top: 60px;
+    margin-left: 30px;
+    font-size: 3em;
+}
+
+.camisas{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.camisas img{
+    width: 20em;
+}
+
+h2{
+    font-weight: lighter;
+    font-size: 1.4em;
+}
+
+p{
+    font-weight: bold;
+}
