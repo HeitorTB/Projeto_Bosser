@@ -84,7 +84,7 @@ header{
 footer {
     justify-content: center; 
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
     align-items: center; 
     margin-bottom: 10px;
 }
@@ -99,19 +99,19 @@ footer {
     font-size: 3em;
 }
 
-.camisas{
+section{
     display: flex;
     list-style-type: none;
     flex-wrap: wrap;
     gap: 80px;
-    margin-left: 50px;
+    margin-left: 180px;
     margin-right: 50px;
-    justify-content: center;
     margin-top: 40px;
+    
 
 }
 
-.camisas img{
+section img{
     width: 20em;
 }
 
