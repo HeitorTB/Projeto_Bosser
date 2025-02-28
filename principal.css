@@ -123,3 +123,56 @@ h2{
 p{
     font-weight: bold;
 }
+
+.form-container {
+    background-color: black;
+    padding: 20px;
+    width: 30em;
+    height: 30em;
+    color: white;
+    margin-top: 50px;
+}
+
+.form-container h2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 80vh; 
+}
+
+form{
+    font-size: 2em;
+}
+.Conecte-se{
+    font-size: 2.8em;
+}
+
+.caixa{
+    width: 24em;
+    height: 2.1em;
+    margin-top: 0;
+}
+
+.senha{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+input [type="submit"]{
+    font-size: 0.5em;
+    width: 5em;
+    padding: 6px;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.Entrar{
+    width: 100%;
+}
